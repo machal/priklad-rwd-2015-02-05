@@ -1,2 +1,40 @@
 /* Sports Weekly stylopis */
 
+// Viewport: http://www.vzhurudolu.cz/prirucka/viewport-windows
+
+@-ms-viewport { width: device-width; }
+
+// Promenne
+
+@base-font-size: 16px;
+@base-line-height: 20px;
+@container-width: 980px;
+@content-width: 540px;
+
+// Helpery
+
+@import "core/helpers";
+
+// Zakladna
+
+@import "base/text";
+@import "base/table";
+@import "base/map";
+
+// Komponenty
+
+@import "components/foot";
+@import "components/gallery";
+@import "components/head";
+@import "components/photo";
+@import "components/similar-articles";
+@import "components/nav";
+
+// Layout
+@media only screen and (min-width: 900px) {
+	@import "layout/layout";
+} 
+
+
+
+

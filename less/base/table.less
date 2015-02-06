@@ -36,12 +36,15 @@ th {
 	text-align: right;
 }
 
-.team-logo,
-.matches-draw,
-.matches-win,
-.matches-loose {
-  @media screen and (max-width: 319px) {
-    display: none;
-  }
-}
 
+@media only screen and (max-width: 820px) {
+
+ .table-order .team-logo img {
+   display: none;
+ }
+
+ .table-order .team-logo {
+   padding: 0;
+ }
+
+}
